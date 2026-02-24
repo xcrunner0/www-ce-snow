@@ -1,0 +1,193 @@
+/*
+Theme Name: Skyscraper One
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Nick
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+
+
+/* --------- BUTTON STYLES --------- */
+
+/* SQUARE SMALL */
+.elementor-size-square-small-btn {
+	border-radius: 0 !important;
+	font-size: 12px !important;
+}
+
+/* SQUARE LARGE */
+.elementor-size-square-large-btn {
+	border-radius: 0 !important;
+	font-size: 14px !important;
+	padding: 18px 30px !important;
+}
+
+/* PILL SMALL */
+.elementor-size-pill-small-btn {
+	border-radius: 50px !important;
+	font-size: 12px !important;
+}
+
+/* PILL LARGE */
+.elementor-size-pill-large-btn {
+	border-radius: 50px !important;
+	font-size: 14px !important;
+	padding: 18px 30px !important;
+}
+
+
+
+/* --------- GENERAL STYLING --------- */
+.oceanwp-sidr-overlay {
+	z-index: 9999 !important;
+}
+.is-sticky #site-header, .is-sticky #top-bar-wrap, .is-sticky .header-top {
+    opacity: 1!important;
+}
+
+.opl-login-li, .sidr-class-opl-logout-link, .sidr-class-opl-login-li {
+	display: none!important;
+}
+ul.elementor-icon-list-items a span, ul.elementor-icon-list-items span {
+    transition: .3s;
+}
+
+#site-header {
+	margin-top: -1px !important;
+}
+
+#scroll-top {
+	border-radius: 0px !important;
+}
+
+
+
+/* WHEN MAX WIDTH 90% TURNS ON */
+@media only screen and (max-width: 960px) {
+	.remove-maxwidth .elementor-container {
+		max-width: 100%!important;
+	}
+}
+
+
+
+/* --------- TOPBAR STYLING --------- */
+
+.topbar-content i {
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 3px;
+	font-size: 10px;
+	transition: .4s;
+	border-radius: 50%;
+}
+
+.d-only {
+	display: inline-block;
+}
+
+.m-only {
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.d-only {
+		display: none;
+	}
+
+	.m-only {
+		display: inline-block;
+	}
+	
+}
+
+
+
+
+
+
+/* --------- NAVIGATION MENU --------- */
+
+
+/* MOBILE MENU */
+
+.mobile-menu .fa-bars {
+	font-size: 26px;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+/* --------- HOME PAGE STYLES --------- */
+
+
+
+
+
+
+
+
+
+/* --------- FOOTER --------- */
+
+
+/* AFFILIATE SLIDER */
+
+.affiliate-slider .elementor-swiper-button-prev {
+	margin-left: -30px;
+}
+
+.affiliate-slider .elementor-swiper-button-next {
+	margin-right: -30px;
+}
+
+/* FOOTER */
+
+#footer-callout-wrap {
+	border: 0px !important;
+}
+
+
+
+
+
+
+
+/* --------- WP FORMS --------- */
+
+/* FIXES FORMATING FOR ADDRESS FIELD */
+
+.wpforms-field-address .wpforms-field-large {
+	width: 66%!important;
+	display: inline-block!important;
+	float: left!important;
+	clear: right!important;
+}
+
+.wpforms-field-address .wpforms-field-large:nth-child(2) {
+	width: 100%!important;
+}
+
+.wpforms-field-address .wpforms-field-large:nth-child(4) {
+	width: 31.5%!important;
+}
+
+.wpforms-field-address .wpforms-field-large:nth-child(4) .wpforms-one-half {
+	width: 100%!important;
+	margin: 0 0 0 8%!important;
+}
